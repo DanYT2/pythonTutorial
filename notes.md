@@ -5,5 +5,8 @@
 
 Written as print(' ') with what to be printed to the console written between the quotation marks
 
+### Variables
 
+Python is loosely typed hence data types are not declared
 
+Declared as variableName = Value
