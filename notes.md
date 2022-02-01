@@ -18,3 +18,11 @@ Declared as variableName = Value
 | \n              | New line        |
 | \t              | Tab             |
 | \\\' or \\\"    | quotation marks |
+
+### Getting input from users
+
+Declared using input()
+
+This prompts the user to provide input
+
+The input can be assigned to a variable using the following syntax: variable = input('This is a prompt for input')
