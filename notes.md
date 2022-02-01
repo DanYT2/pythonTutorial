@@ -10,3 +10,11 @@ Written as print(' ') with what to be printed to the console written between the
 Python is loosely typed hence data types are not declared
 
 Declared as variableName = Value
+
+### Working with Strings
+
+| Escape sequence | Function        |
+|-----------------|-----------------|
+| \n              | New line        |
+| \t              | Tab             |
+| \\\' or \\\"    | quotation marks |
