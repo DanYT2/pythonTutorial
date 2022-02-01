@@ -46,3 +46,11 @@ Declarations of lists:
 | .count('parameter')         | Returns the number of times an item appears on a list            |
 | .insert(index, 'parameter') | Inserts into the specified index the value passed as a parameter |
 | .remove('parameter')        | Removes the parameter from the list                              |
+
+### Tuples
+
+Declared similarly to lists but use parenthesis instead of square brackets
+
+tuple = (1,2)
+
+They are used to store immutable values i.e. Those that can't be changed
