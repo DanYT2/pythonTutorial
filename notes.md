@@ -3,13 +3,13 @@
 
 ### Print Statements
 
-Written as print(' ') with what to be printed to the console written between the quotation marks
+Written as `print(' ')` with what to be printed to the console written between the quotation marks
 
 ### Variables
 
 Python is loosely typed hence data types are not declared
 
-Declared as variableName = Value
+Declared as `variableName = Value`
 
 ### Working with Strings
 
@@ -21,17 +21,19 @@ Declared as variableName = Value
 
 ### Getting input from users
 
-Declared using input()
+Declared using `input()`
 
 This prompts the user to provide input
 
-The input can be assigned to a variable using the following syntax: variable = input('This is a prompt for input')
+The input can be assigned to a variable using the following syntax:
+
+`variable = input('This is a prompt for input')`
 
 ### Lists
 
 Declarations of lists:
 
-    list = [ ]
+`list = []`
 
 ###### List functions
 
@@ -51,6 +53,12 @@ Declarations of lists:
 
 Declared similarly to lists but use parenthesis instead of square brackets
 
-tuple = (1,2)
+`tuple = (1,2)`
 
 They are used to store immutable values i.e. Those that can't be changed
+
+### Functions
+
+Used to run a set of code whenever called upon.
+
+Declared as `def function_name(parameter):`
