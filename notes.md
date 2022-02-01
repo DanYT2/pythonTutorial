@@ -26,3 +26,23 @@ Declared using input()
 This prompts the user to provide input
 
 The input can be assigned to a variable using the following syntax: variable = input('This is a prompt for input')
+
+### Lists
+
+Declarations of lists:
+
+    list = [ ]
+
+###### List functions
+
+| Function                    | Description                                                      |
+|-----------------------------|------------------------------------------------------------------|
+| .append('Parameter')        | Adds the passed element to the end of a list                     |
+| .sort( )                    | Sorts list in ascending order                                    |
+| .clear( )                   | Removes all elements in a list                                   |
+| .pop()                      | Removes the last element in a list                               |
+| .index('parameter')         | Returns the index of the parameter in the list if present        |
+| .copy()                     | Creates a copy of the list with the same items                   |
+| .count('parameter')         | Returns the number of times an item appears on a list            |
+| .insert(index, 'parameter') | Inserts into the specified index the value passed as a parameter |
+| .remove('parameter')        | Removes the parameter from the list                              |
