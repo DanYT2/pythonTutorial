@@ -15,9 +15,9 @@ Declared as `variableName = Value`
 
 | Escape sequence | Function        |
 |-----------------|-----------------|
-| \n              | New line        |
-| \t              | Tab             |
-| \\\' or \\\"    | quotation marks |
+| `\n `           | New line        |
+| `\t  `          | Tab             |
+| `\' or \" `     | quotation marks |
 
 ### Getting input from users
 
@@ -37,17 +37,17 @@ Declarations of lists:
 
 ###### List functions
 
-| Function                    | Description                                                      |
-|-----------------------------|------------------------------------------------------------------|
-| .append('Parameter')        | Adds the passed element to the end of a list                     |
-| .sort( )                    | Sorts list in ascending order                                    |
-| .clear( )                   | Removes all elements in a list                                   |
-| .pop()                      | Removes the last element in a list                               |
-| .index('parameter')         | Returns the index of the parameter in the list if present        |
-| .copy()                     | Creates a copy of the list with the same items                   |
-| .count('parameter')         | Returns the number of times an item appears on a list            |
-| .insert(index, 'parameter') | Inserts into the specified index the value passed as a parameter |
-| .remove('parameter')        | Removes the parameter from the list                              |
+| Function                      | Description                                                      |
+|-------------------------------|------------------------------------------------------------------|
+| `.append('Parameter')`        | Adds the passed element to the end of a list                     |
+| `.sort( ) `                   | Sorts list in ascending order                                    |
+| `.clear( ) `                  | Removes all elements in a list                                   |
+| `.pop()  `                    | Removes the last element in a list                               |
+| `.index('parameter')`         | Returns the index of the parameter in the list if present        |
+| `.copy()`                     | Creates a copy of the list with the same items                   |
+| `.count('parameter')`         | Returns the number of times an item appears on a list            |
+| `.insert(index, 'parameter')` | Inserts into the specified index the value passed as a parameter |
+| `.remove('parameter')`        | Removes the parameter from the list                              |
 
 ### Tuples
 
@@ -62,3 +62,14 @@ They are used to store immutable values i.e. Those that can't be changed
 Used to run a set of code whenever called upon.
 
 Declared as `def function_name(parameter):`
+
+##### Comparison operators
+
+| Comparison | Function                 |
+|------------|--------------------------|
+| `>`        | Greater than             |
+| `<`        | Less than                |
+| `>=`       | Greater than or equal to |
+| `<=`       | Less than or equal to    |
+| `!=`       | Not equal to             |
+| `==`       | Equal to                 |
