@@ -73,3 +73,15 @@ Declared as `def function_name(parameter):`
 | `<=`       | Less than or equal to    |
 | `!=`       | Not equal to             |
 | `==`       | Equal to                 |
+
+### Dictionaries
+
+Used to store a set of data in the form of key value pairs. Each key MUST be unique.
+
+Declaration
+
+`dictionary = {'key': 'Value'}`
+
+They can be accessed in the following ways:
+
+`dictionary["Key"]` or `dictionary.get('Key')`
