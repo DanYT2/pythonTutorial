@@ -85,3 +85,12 @@ Declaration
 They can be accessed in the following ways:
 
 `dictionary["Key"]` or `dictionary.get('Key')`
+
+### While loop
+
+Loops through the structure whenever the condition remains true
+
+Declaration:
+
+    while comparison:
+        Lines of code
