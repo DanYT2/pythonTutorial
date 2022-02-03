@@ -94,3 +94,25 @@ Declaration:
 
     while comparison:
         Lines of code
+
+### File Handling
+
+Declaration: `variable = open('Path to file', 'Access mode')`
+
+| Access mode | Description                                                            |
+|-------------|------------------------------------------------------------------------|
+| r           | readable                                                               |
+| a           | Append data to the end of a file. Creates a new one if it doesnt exist |
+| w           | Opens a file for writing. Creates a new one if it doesnt exist         |
+| x           | Creates a new file. Returns an error if it already exists              |
+| r+          | Read and write permissions are granted                                 |
+
+#### Reading files
+
+    f = open('demofile.txt', 'r')
+    f.readable()            # Checks if file can be read
+    f.writable()            # Checks if the fiel is writable
+    print (f.read())        # Reads the entire file
+    print (f.readline())    # Reads the first line of the file
+    print (f.read(3))       # Reads the first x characters in a file
+    f.close()               # Closes the file once through
